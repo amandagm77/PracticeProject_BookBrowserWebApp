@@ -67,16 +67,21 @@ function updateDisplayedBooks() {
     searchInput.value.toLowerCase();
   const selectedCategory =
     categoryFilter.value;
-  const filteredBooks = books.filter(book => {
-    const matchesSearch =
-      book.title
+  // START WITH ALL BOOKS
+  let filteredBooks = books;
+  // FILTER BY SEARCH TEXT
+  filteredBooks = filteredBooks.filter(book => {
+    return book.title
       .toLowerCase()
       .includes(searchText);
-    const matchesCategory =
-      selectedCategory === "all" ||
-      book.category === selectedCategory;
-    return matchesSearch && matchesCategory;
   });
+  // FILTER BY CATEGORY
+  if (selectedCategory !== "all") {
+    filteredBooks = filteredBooks.filter(book => {
+      return book.category === selectedCategory;
+    });
+  }
+  // RENDER FINAL FILTERED BOOKS
   renderBooks(filteredBooks);
 }
 // 5. EVENT LISTENERS
