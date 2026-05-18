@@ -8,7 +8,7 @@ const books = [
     year: 1965,
     image: "images/dune.jpg",
     description: "A science fiction story about politics, power, and survival.",
-    rating: 5
+    rating: 4.5
   },
   {
     id: 2,
@@ -18,7 +18,47 @@ const books = [
     year: 1937,
     image: "images/thehobbit.jpg",
     description: "A fantasy adventure through Middle-earth.",
-    rating: 5
+    rating: 4.3
+  },
+  {
+    id: 3,
+    title: "Pride & Prejudice",
+    author: "Jane Austen",
+    category: "Romance",
+    year: 1813,
+    image: "images/prideandprejudice.jpg",
+    description: "A story of romance in rural England during the early 19th century.",
+    rating: 4.3
+  },
+  {
+    id: 4,
+    title: "The Last Unicorn",
+    author: "Peter S. Beagle",
+    category: "Fantasy",
+    year: 1968,
+    image: "images/thelastunicorn.jpg",
+    description: "A fantasy adventure of a lone unicorn searching for the rest of her kind.",
+    rating: 4.2
+  },
+  {
+    id: 5,
+    title: "The Hound of the Baskervilles",
+    author: "Sir Arthur Conan Doyle",
+    category: "Mystery",
+    year: 1902,
+    image: "images/sherlockholmesandthehoundofthebaskervilles.jpg",
+    description: "A mystery story following the famous detective Sherlock Holmes who investigates reports of a demonic hound.",
+    rating: 4.35
+  },
+  {
+    id: 6,
+    title: "The Devil's Highway",
+    author: "Luis Alberto Urrea",
+    category: "Nonfiction",
+    year: 2004,
+    image: "images/thedevilshighway.jpg",
+    description: "A recounting of the tragic 2001 deaths of 14 out of 26 men attempting to cross the Arizona desert through the region known as 'The Devil's Highway'.",
+    rating: 4.1
   }
 ];
 // 2. DOM SELECTORS
