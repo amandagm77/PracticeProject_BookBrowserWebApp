@@ -1,3 +1,4 @@
+@import url('https://googleapis.com');
 /* RESET */
 * {
   margin: 0;
@@ -16,9 +17,13 @@ body {
 .header {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
 }
 .header h1 {
   margin-bottom: 10px;
+  font-family: 'Style Script', cursive;
+  font-size: 80px;
 }
 /* CONTROLS */
 .controls {
@@ -70,6 +75,7 @@ body {
 /* FOOTER */
 .footer {
   text-align: center;
+  font-weight: 600;
   margin-top: 40px;
   padding: 20px;
 }
