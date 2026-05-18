@@ -106,6 +106,10 @@ function showBookDetails(book) {
       </div>
     </div>
   `;
+  //SCROLL TO DETAILS SECTION
+  bookDetails.scrollIntoView({
+    behavior: "smooth"
+  });
 }
 // 4. SEARCH + FILTER LOGIC
 function updateDisplayedBooks() {
