@@ -66,6 +66,7 @@ const bookContainer = document.querySelector("#bookContainer");
 const searchInput = document.querySelector("#searchInput");
 const categoryFilter = document.querySelector("#categoryFilter");
 const bookDetails = document.querySelector("#bookDetails");
+const darkModeToggle = document.querySelector("#darkModeToggle");
 // 3. RENDER FUNCTIONS
 function renderBooks(bookArray) {
   // CLEAR OLD BOOKS
@@ -143,5 +144,13 @@ categoryFilter.addEventListener(
   "change",
   updateDisplayedBooks
 );
+darkModeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+    if (document.body.classList.contains("dark-mode")) {
+    darkModeToggle.textContent = "Light Mode";
+  } else {
+    darkModeToggle.textContent = "Dark Mode";
+  }
+});
 // 6. INITIAL RENDER
 renderBooks(books);
