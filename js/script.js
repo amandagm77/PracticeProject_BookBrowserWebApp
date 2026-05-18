@@ -92,13 +92,19 @@ function renderBooks(bookArray) {
 }
 function showBookDetails(book) {
   bookDetails.innerHTML = `
-    <h2>${book.title}</h2>
-    <img src="${book.image}" alt="${book.title}" width="200">
-    <p><strong>Author:</strong> ${book.author}</p>
-    <p><strong>Category:</strong> ${book.category}</p>
-    <p><strong>Year:</strong> ${book.year}</p>
-    <p><strong>Rating:</strong> ${book.rating}/5</p>
-    <p>${book.description}</p>
+    <div class="details-layout">
+      <div class="details-image">
+        <img src="${book.image}" alt="${book.title}">
+      </div>
+      <div class="details-text">
+        <h2>${book.title}</h2>
+        <p><strong>Author:</strong> ${book.author}</p>
+        <p><strong>Category:</strong> ${book.category}</p>
+        <p><strong>Year:</strong> ${book.year}</p>
+        <p><strong>Rating:</strong> ${book.rating}/5</p>
+        <p>${book.description}</p>
+      </div>
+    </div>
   `;
 }
 // 4. SEARCH + FILTER LOGIC
