@@ -59,6 +59,66 @@ const books = [
     image: "images/thedevilshighway.jpg",
     description: "A recounting of the tragic 2001 deaths of 14 out of 26 men attempting to cross the Arizona desert through the region known as 'The Devil's Highway'.",
     rating: 4.1
+  },
+  {
+    id: 7,
+    title: "Mistborn: The Final Empire",
+    author: "Brandon Sanderson",
+    category: "Fantasy",
+    year: 2006,
+    image: "images/mistborn.jpg",
+    description: "Follows a crew of thieves as they attempt to overthrow an immortal ruler in a world of ash and mist.",
+    rating: 4.5
+  },
+  {
+    id: 8,
+    title: "Redwall",
+    author: "Brian Jacques",
+    category: "Fantasy",
+    year: 1986,
+    image: "images/redwall.jpg",
+    description: "A children's fantasy novel set in a medieval world populated by anthropomorphic animals, where its inhabitants defend themselves from evil creatures.",
+    rating: 4.2
+  },
+  {
+    id: 9,
+    title: "The Colour of Magic",
+    author: "Terry Pratchett",
+    category: "Fantasy",
+    year: 1983,
+    image: "images/thecolourofmagic.jpg",
+    description: "A satirical fantasy that introduces the flat, turtle-borne Discworld and its first tourist, Twoflower, who is guided by the inept wizard Rincewind.",
+    rating: 4
+  },
+  {
+    id: 10,
+    title: "Death by Black Hole",
+    author: "Neil deGrasse Tyson",
+    category: "Nonfiction",
+    year: 2007,
+    image: "images/deathbyblackhole.jpg",
+    description: "An astrophysics book exploring various cosmic topics, from black holes to the search for extraterrestrial life.",
+    rating: 4.1
+  },
+  {
+    id: 11,
+    title: "The Hitchhiker's Guide to the Galaxy",
+    author: "Douglas Adams",
+    category: "Sci-Fi",
+    year: 1979,
+    image: "images/hitchhikersguidetothegalaxy.jpg",
+    description: "A humorous science fiction story about an ordinary Englishman who is saved from Earth's destruction, leading to a bizarre journey through space using a peculiar device.",
+    rating: 4.4
+  },
+   {
+    id: 12,
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    category: "Fiction",
+    year: 1960,
+    image: "images/tokillamockingbird.jpg",
+    description: "A southern fiction story about racial injustice and the loss of innocence in the Deep South.",
+    rating: 4.3
   }
 ];
 // 2. DOM SELECTORS
